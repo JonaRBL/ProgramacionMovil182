@@ -1,5 +1,5 @@
-let a = 1;
+let a = {};
 let b = a;
 
-b++;
+b.prop = 1;
 console.log(a,b);
