@@ -9,3 +9,8 @@ const punto = {
 if ('dibujar' in punto) {
     punto.dibujar();
 }
+
+// console.log(Object.keys(punto));
+for (let llave of Object.keys(punto)) {
+    console.log(llave, punto[llave]);
+}
