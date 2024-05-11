@@ -18,3 +18,7 @@ for (let llave of Object.keys(punto)) {
 for (let entry of Object.entries(punto)) {
     console.log(entry);
 }
+
+for (let llave in punto) {
+    console.log(llave, punto[llave]);
+}
