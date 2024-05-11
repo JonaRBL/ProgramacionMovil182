@@ -1,5 +1,8 @@
-let a = {};
-let b = a;
+let a = 1;
 
-b.prop = 1;
-console.log(a,b);
+function suma(n) {
+    n++;
+}
+
+suma(a);
+console.log(a);
