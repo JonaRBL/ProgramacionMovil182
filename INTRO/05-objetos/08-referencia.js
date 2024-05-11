@@ -1,7 +1,7 @@
-let a = 1;
+let a = { prop: 1};
 
 function suma(n) {
-    n++;
+    n.prop++;
 }
 
 suma(a);
