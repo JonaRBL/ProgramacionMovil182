@@ -14,3 +14,7 @@ if ('dibujar' in punto) {
 for (let llave of Object.keys(punto)) {
     console.log(llave, punto[llave]);
 }
+
+for (let entry of Object.entries(punto)) {
+    console.log(entry);
+}
