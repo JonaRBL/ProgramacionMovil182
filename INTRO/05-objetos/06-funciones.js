@@ -24,4 +24,4 @@ function returned() {
 }
 
 let saludo = returned();
-saludo()
+saludo();
